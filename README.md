@@ -1,19 +1,18 @@
 <h2>Super Mario Navigation Path</h2>
 <h4>Project Description</h4>
-````
+
 Once upon a time, the Mushroom kingdom was invaded by Koopa,the king of turtles. 
 Mario, a loyal person to the Kingdom sets out on an adventurous mission to get 
 independence. He needs to traverse through the kingdom and fight obstacles to 
 ultimately face Koopa. Write a program to guide Mario with a simple navigation 
 path. Code and document for the Super Mario that traverse through the kingdom 
 and fight obstacles to ultimately face Koopa.
-````
+
 <h4>Goals</h4>
-lew
-````
+
 Write a program to guide Mario with a simple navigation path.
 build: functional project
-````
+
 
 <h4>Required software components:</h4>
 
@@ -73,13 +72,10 @@ These service classes are used to fetch the data from file into collection of Li
 since I am using gradle wrapper just use below commands to run the current
 application.
 
-````
 ./gradlew runApplication
-````
+
 <h4> How to run unit test cases</h4>
 
-````
 ./gradlew test
-````
 
 Code coverage is tested using Intellij jacoco plugin.
