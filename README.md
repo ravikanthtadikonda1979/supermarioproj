@@ -70,7 +70,12 @@ build: functional project
 
 
 <h4> How to run this application</h4>
-since I am using gradle wrapper just use below commands to run the current
+
+Use below command to download project zip file
+
+<h4>git clone https://github.com/ravikanthtadikonda1979/supermarioproj.git</h4>
+
+Since I am using gradle wrapper just use below commands to run the current
 application.
 
 ./gradlew runApplication
@@ -80,3 +85,8 @@ application.
 ./gradlew test
 
 Code coverage is tested using Intellij jacoco plugin.
+
+
+
+
+
