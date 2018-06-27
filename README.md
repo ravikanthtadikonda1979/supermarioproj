@@ -21,35 +21,35 @@ build: functional project
 
 <h4>Technical: Top Level Architecture</h4>
 
-<h5**model classes:**</h5>
-    **com.mario.model.Position.java :**\
+<h5>model classes:</h5>
+    com.mario.model.Position.java :
         Holds the position of mario (value, altitute, index).
-    **com.mario.model.Path.java:**\
+    com.mario.model.Path.java:
         Holds the list of all positions in a particular altitude.
     
-<h5>**repository classes:**</h5>
-    **com.mario.respositories.MarioNavitionNavigationRepository.java**\
+<h5>repository classes:</h5>
+    com.mario.respositories.MarioNavitionNavigationRepository.java
         Returns the collection of objects of Position
        
-<h5>**service classes:**</h5>
-These service classes are used to fetch the data from file into collection of List
-   **com.mario.service.impl.FileServiceImpl.java**\
+<h5>service classes:</h5>
+   These service classes are used to fetch the data from file into collection of List
+   com.mario.service.impl.FileServiceImpl.java
         Used to read input file as a stream/reader
-    **com.mario.service.impl.PathServiceImpl.java**\
+    com.mario.service.impl.PathServiceImpl.java
         Used to Converts the steam/reader to ArrayList
 
-<h5>**business logic classes:**</h5>
-       These classes perform business logic.\
-    **com.mario.navigation.MarioNavigationPath.java**\
+<h5>business logic classes:</h5>
+       These classes perform business logic.
+    com.mario.navigation.MarioNavigationPath.java
         performs final business logic to calculate Mario navigation path
 
-<h5>**utility classes:**</h4>
-    **com.mario.util.MarioNavigationUtil.java**\
+<h5>utility classes:</h4>
+    com.mario.util.MarioNavigationUtil.java
         has static utility method that takes the filename as string and returns
         the navigation path as string
         
-<h5>**application classes:**</h4>
-    **com.mario.app.MarioNavigationApp.java**\
+<h5>application classes:</h4>
+    com.mario.app.MarioNavigationApp.java
         entry point to the application that takes the filename as string and returns the
         final result
 <br><br>
