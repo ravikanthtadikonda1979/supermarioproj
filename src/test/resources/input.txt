@@ -1,0 +1,6 @@
+Number of positions:15
+A4:B,B,B,B,B,B,E,E,E,B,E,E,E,E,E
+A3:E,E,E,E,E,E,E,B,E,E,E,B,E,E,E
+A2:E,E,E,E,E,E,B,E,B,E,B,B,E,E,E
+A1:E,E,E,E,E,B,E,B,B,B,B,B,E,E,E
+A0:E,E,E,E,B,B,B,E,E,E,B,B,E,B,E

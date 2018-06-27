@@ -2,6 +2,8 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'java'
+
 group 'supermarioproj'
 version '1.0-SNAPSHOT'
 
@@ -11,6 +13,12 @@ repositories {
     mavenCentral()
 }
 
+task runApplication(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.mario.app.MarioNavigationApp"
+}
+
 dependencies {
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.1.1'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
 }
