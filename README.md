@@ -11,6 +11,7 @@ and fight obstacles to ultimately face Koopa.
 <h4>Goals</h4>
 
 Write a program to guide Mario with a simple navigation path.
+
 build: functional project
 
 
