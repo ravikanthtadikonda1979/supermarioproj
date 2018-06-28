@@ -23,36 +23,36 @@ build: functional project
 <h4>Technical: Top Level Architecture</h4>
 
 <h5>model classes:</h5>
-    com.mario.model.Position.java :
+    com.mario.model.Position.java :<br>
         Holds the position of mario (value, altitute, index).
-    com.mario.model.Path.java:
+    com.mario.model.Path.java:<br>
         Holds the list of all positions in a particular altitude.
     
 <h5>repository classes:</h5>
-    com.mario.respositories.MarioNavitionNavigationRepository.java
+    com.mario.respositories.MarioNavitionNavigationRepository.java<br>
         Returns the collection of objects of Position
        
 <h5>service classes:</h5>
-   These service classes are used to fetch the data from file into collection of List
-   com.mario.service.impl.FileServiceImpl.java
-        Used to read input file as a stream/reader
-    com.mario.service.impl.PathServiceImpl.java
-        Used to Converts the steam/reader to ArrayList
+   These service classes are used to fetch the data from file into collection of List<br>
+   com.mario.service.impl.FileServiceImpl.java<br>
+        Used to read input file as a stream/reader<br>
+    com.mario.service.impl.PathServiceImpl.java<br>
+        Used to Converts the steam/reader to ArrayList<br>
 
 <h5>business logic classes:</h5>
-       These classes perform business logic.
-    com.mario.navigation.MarioNavigationPath.java
-        performs final business logic to calculate Mario navigation path
+       These classes perform business logic.<br>
+    com.mario.navigation.MarioNavigationPath.java<br>
+        performs final business logic to calculate Mario navigation path<br>
 
 <h5>utility classes:</h4>
-    com.mario.util.MarioNavigationUtil.java
+    com.mario.util.MarioNavigationUtil.java<br>
         has static utility method that takes the filename as string and returns
-        the navigation path as string
+        the navigation path as string<br>
         
 <h5>application classes:</h4>
-    com.mario.app.MarioNavigationApp.java
+    com.mario.app.MarioNavigationApp.java<br>
         entry point to the application that takes the filename as string and returns the
-        final result
+        final result<br>
 <br><br>
 
 
