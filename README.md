@@ -21,8 +21,8 @@ build: functional project
 **Gradle 4.8.1**
 <table>
     <tr><td><h4>Technical: Top Level Architecture</h4></td></tr>
-<tr><td>    
-<table>
+    <tr><td>
+    <table>
     <tr><td><h5>model classes:</h5></td></tr>
     <tr><td><h6>com.mario.model.Position.java :</h6>
         Holds the position of mario (value, altitute, index)</td></tr>
