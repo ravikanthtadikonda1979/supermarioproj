@@ -25,34 +25,25 @@ build: functional project
 <h5>model classes:</h5>
     com.mario.model.Position.java :
         Holds the position of mario (value, altitute, index)<br>
-    com.mario.model.Path.java:
-        Holds the list of all positions in a particular altitude.
+    com.mario.model.Path.java: Holds the list of all positions in a particular altitude<br>
     
 <h5>repository classes:</h5>
-    com.mario.respositories.MarioNavitionNavigationRepository.java:
-        Returns the collection of objects of Position
+    com.mario.respositories.MarioNavitionNavigationRepository.java: Returns the collection of objects of Position<br>
        
 <h5>service classes:</h5>
    These service classes are used to fetch the data from file into collection of List<br>
-   com.mario.service.impl.FileServiceImpl.java:
-        Used to read input file as a stream/reader<br>
-    com.mario.service.impl.PathServiceImpl.java:
-        Used to Converts the steam/reader to ArrayList<br>
+   com.mario.service.impl.FileServiceImpl.java: Used to read input file as a stream/reader<br>
+    com.mario.service.impl.PathServiceImpl.java: Used to Converts the steam/reader to ArrayList<br>
 
 <h5>business logic classes:</h5>
        These classes perform business logic<br>
-    com.mario.navigation.MarioNavigationPath.java:
-        performs final business logic to calculate Mario navigation path<br>
+    com.mario.navigation.MarioNavigationPath.java: Performs final business logic to calculate Mario navigation path<br>
 
 <h5>utility classes:</h4>
-    com.mario.util.MarioNavigationUtil.java:
-        has static utility method that takes the filename as string and returns
-        the navigation path as string<br>
+    com.mario.util.MarioNavigationUtil.java: Has static utility method that takes the filename as string and returns the            navigation path as string<br>
         
 <h5>application classes:</h4>
-    com.mario.app.MarioNavigationApp.java:
-        entry point to the application that takes the filename as string and returns the
-        final result<br>
+    com.mario.app.MarioNavigationApp.java: Entry point to the application that takes the filename as string and returns the final result<br>
 <br><br>
 
 
