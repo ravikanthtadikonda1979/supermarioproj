@@ -25,7 +25,7 @@ build: functional project
 <h5>model classes:</h5>
     <h6>com.mario.model.Position.java :</h6>
         Holds the position of mario (value, altitute, index)<br>
-    com.mario.model.Path.java: Holds the list of all positions in a particular altitude<br>
+    <h6>com.mario.model.Path.java:</h6> Holds the list of all positions in a particular altitude<br>
     
 <h5>repository classes:</h5>
     <h6>com.mario.respositories.MarioNavitionNavigationRepository.java:</h6> Returns the collection of objects of Position<br>
