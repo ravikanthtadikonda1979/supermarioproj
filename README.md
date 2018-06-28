@@ -62,12 +62,12 @@ build: functional project
     <tr><td><h6>com.mario.app.MarioNavigationApp.java:</h6> Entry point to the application that takes the filename as string and returns the final result</td></tr>
     </table>
     </td></tr>
+</table>    
 <br><br>
 
-
-
-<h4>Test Cases:Unit Testing</h4>
 <table>
+
+<tr><td>Test Cases:Unit Testing</h4></td></tr>
 <tr><td><h6>Files used in testing</h6></td></tr>
 <tr><td>com.mario.service.FileServiceImplTest.java</td></tr>
 <tr><td>com.mario.service.PathServiceImplTest.java</td></tr>
