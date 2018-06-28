@@ -19,42 +19,49 @@ build: functional project
 
 **JDK 8 - Java Development Kit - version 8**
 **Gradle 4.8.1**
-
-<h4>Technical: Top Level Architecture</h4>
+<table>
+    <tr><td><h4>Technical: Top Level Architecture</h4></td></tr>
+<tr><td>    
 <table>
     <tr><td><h5>model classes:</h5></td></tr>
     <tr><td><h6>com.mario.model.Position.java :</h6>
         Holds the position of mario (value, altitute, index)</td></tr>
     <tr><td><h6>com.mario.model.Path.java:</h6> Holds the list of all positions in a particular altitude</td>/<tr>
 </table>
-
+</td></tr>    
+<tr><td>
 <table>
     <tr><td><h5>repository classes:</h5></td></tr>
     <tr><td><h6>com.mario.respositories.MarioNavitionNavigationRepository.java:</h6> Returns the collection of objects of Position</td></tr>
-</table>       
-
+</table> 
+</td></tr>
+<tr><td>
 <table>
     <tr><td><h5>service classes:</h5></td></tr>
     <tr><td>These service classes are used to fetch the data from file into collection of List</td></tr>
     <tr><td><h6>com.mario.service.impl.FileServiceImpl.java:</h6> Used to read input file as a stream/reader</td></tr>
     <tr><td><h6>com.mario.service.impl.PathServiceImpl.java:</h6> Used to Converts the steam/reader to ArrayList</td></tr>
 </table>
-
+</td></tr>
+<tr><td>
 <table>
     <tr><td><h5>business logic classes:</h5></td></tr>
     <tr><td>These classes perform business logic</td></tr>
     <tr><td><h6>com.mario.navigation.MarioNavigationPath.java:</h6> Performs final business logic to calculate Mario navigation path</td></tr>
 </table>
-
+</td></tr>
+<tr><td>
 <table>
     <tr><td><h5>utility classes:</h4></td></tr>
     <tr><td><h6>com.mario.util.MarioNavigationUtil.java:</h6> Has static utility method that takes the filename as string and returns the navigation path as string</td></tr>
- </table>
-
+</table>
+</td></tr>    
+<tr><td>
 <table>
     <tr><td><h5>application classes:</h4></td></tr>
     <tr><td><h6>com.mario.app.MarioNavigationApp.java:</h6> Entry point to the application that takes the filename as string and returns the final result</td></tr>
     </table>
+    </td></tr>
 <br><br>
 
 
